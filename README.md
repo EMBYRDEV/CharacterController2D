@@ -2,6 +2,8 @@
 
 CharacterController2D is a reimplementation of Unity's CharacterController class using the 2D physics engine that doesn't share the same limitations of other solutions.
 
+NOTE: CharacterController2D.Move() should be called in FixedUpdate().
+
 ## Features
 
 - Behaves almost exactly like CharacterController.
