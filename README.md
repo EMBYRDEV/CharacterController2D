@@ -1,6 +1,6 @@
 # CharacterController2D
 
-CharacterController2D is a reimplementation of Unity's CharacterController class using the 2D physics engine that doesnt share the same limitations of other solutions.
+CharacterController2D is a reimplementation of Unity's CharacterController class using the 2D physics engine that doesn't share the same limitations of other solutions.
 
 ## Features
 
@@ -25,10 +25,6 @@ CharacterController2D is a reimplementation of Unity's CharacterController class
 Add a CharacterController2D to your player object and it will add a Rigidbody2D component and configure it to it's optimal defaults.
 
 You will need to add a collider to your player. It is recommended you use a BoxCollider or PolygonCollider since if you have slopes in your collider that are steeper than slopeLimit then you may have issues with isGrounded and sliding along the ground normal.
-
-Here is good example of an ideal collider setup (slope limit 30).
-
-![Example Screenshot](https://i.imgur.com/1XAE9Cs.png)
 
 ## Usage
 
