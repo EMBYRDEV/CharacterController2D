@@ -27,6 +27,7 @@ sealed public class CharacterController2D : MonoBehaviour {
 	private Rigidbody2D rb;
 
 	// Misc
+	[HideInInspector][System.NonSerialized]
 	public ContactFilter2D contactFilter;
 
 	void Awake() {
